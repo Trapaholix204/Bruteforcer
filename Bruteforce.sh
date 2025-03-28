@@ -45,8 +45,8 @@ while true; do
   
   # Throttle the attempts to 500 per minute.
   if ((counter % 1000 == 0)); then
-    sleep 0.002
-  done
+    sleep 0.002 
+  fi
 
   # Clean-up between attempts, cycling through username files if necessary.
   done
